@@ -204,4 +204,60 @@ select {
     margin-top: 29px;
     color: #F78065;
 
+} 
+
+.sections-four-steps{
+margin-top: 10rem;
+}
+
+
+.four-steps__title{
+font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+margin-left: 102px;
+margin-bottom: 6.8rem;
+    color: #000000;
+}
+
+.sections-four-steps__wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: hidden;
+   
+}
+.four-steps__one-step,.four-steps__tow-step,.four-steps__therd-step,.four-steps__four-step{
+    display: flex;
+    flex-direction: column;
+ width: 13%;
+ padding-bottom: 2000000px;
+ margin-bottom: -2000000px;
+}
+
+
+
+.four-steps__one-step-title,.four-steps__tow-step-title,.four-steps__therd-step-title,.four-steps__four-step-title{
+    font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 31px;
+        width: 275px;
+}
+
+
+.four-steps__one-step-text,.four-steps__tow-step-text,.four-steps__therd-step-text,.four-steps__four-step-text{
+    margin-bottom: 16px;
+}
+
+
+.img-svg{
+    width: 32px;
+height: 32px;
+margin-bottom: 64px;
 }
