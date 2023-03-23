@@ -193,7 +193,7 @@ select {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;   
+    line-height: 24px;
 
     color: #000000;
 
@@ -204,60 +204,165 @@ select {
     margin-top: 29px;
     color: #F78065;
 
-} 
+}
 
-.sections-four-steps{
-margin-top: 10rem;
+.sections-four-steps {
+    margin-top: 10rem;
 }
 
 
-.four-steps__title{
-font-family: 'Merriweather';
+.four-steps__title {
+    font-family: 'Merriweather';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 45px;
-margin-left: 102px;
-margin-bottom: 6.8rem;
+    margin-left: 102px;
+    margin-bottom: 6.8rem;
     color: #000000;
 }
 
-.sections-four-steps__wrapper{
+.sections-four-steps__wrapper {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    overflow: hidden;
-   
+
+
 }
-.four-steps__one-step,.four-steps__tow-step,.four-steps__therd-step,.four-steps__four-step{
+
+.four-steps__one-step,
+.four-steps__tow-step,
+.four-steps__therd-step,
+.four-steps__four-step {
     display: flex;
     flex-direction: column;
- width: 13%;
- padding-bottom: 2000000px;
- margin-bottom: -2000000px;
+    width: 13%;
+    flex-basis: 10rem;
+    flex-shrink: 0;
 }
 
 
 
-.four-steps__one-step-title,.four-steps__tow-step-title,.four-steps__therd-step-title,.four-steps__four-step-title{
+.four-steps__one-step-title,
+.four-steps__tow-step-title,
+.four-steps__therd-step-title,
+.four-steps__four-step-title {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 31px;
+    width: 275px;
+}
+
+
+.four-steps__one-step-text,
+.four-steps__tow-step-text,
+.four-steps__therd-step-text,
+.four-steps__four-step-text {
+    margin-bottom: auto;
+}
+
+
+.img-svg {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 64px;
+}
+.container__community-campervan{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 263px; 
+}
+
+.community-campervan-description{
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    margin-left: 100px;
+}
+.community-campervan__wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.community-campervan__title{
     font-family: 'Merriweather';
         font-style: normal;
         font-weight: 700;
-        font-size: 22px;
-        line-height: 28px;
+        font-size: 36px;
+        line-height: 45px;
+    
         color: #000000;
-        margin-bottom: 31px;
-        width: 275px;
+}
+.community-campervan__text{
+font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+
+    opacity: 0.5;
+
 }
 
-
-.four-steps__one-step-text,.four-steps__tow-step-text,.four-steps__therd-step-text,.four-steps__four-step-text{
-    margin-bottom: 16px;
+.community-campervan__orang-button{
+    background: #F78065;
+    width: 250px;
+    color: #FFFFFF;
+}
+.img-play{
+    width: 24px;
+    flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.name-button{
+    flex: none;
+        order: 1;
+        flex-grow: 0;
 }
 
+.community-campervan__managers{
+    display: flex;
+    width: 67%;
+        justify-content: space-between;
+        margin-right: 100px;
+        margin-left: auto;
+    
+}
 
-.img-svg{
-    width: 32px;
-height: 32px;
-margin-bottom: 64px;
+.community-campervan__manager-name
+{font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.community-campervan__manager-state{
+        font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            
+            color: #3F3D56;
+}
+.community-campervan__manager-follow{
+    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+    
+    
+        color: #F78065;
 }
